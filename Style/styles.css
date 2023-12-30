@@ -1,17 +1,20 @@
 body{
     background-color: rgb(250, 250, 65);
-    /* max-height: 100vh; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    max-height: 100vh;
+
 }
 
-
-.contenaire{
-    margin-top: auto;
+main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.contenaire{
+   display: flex;
+   align-items: center;
+   justify-content: center;
   border-style: none;
   border-color: black;
   border-width: 2px;
@@ -33,7 +36,8 @@ body{
 
    
 }
-#btn{
+.btn{
+    cursor: pointer;
     margin-top: 20px;
 background-color: #fdfdfd;
 height: 40px;
@@ -47,4 +51,3 @@ border-top-left-radius: 10px;
 border-bottom-right-radius: 10px;
 box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-
