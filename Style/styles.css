@@ -27,11 +27,17 @@ h1{
    text-align: center;
 }
 #btn{
+    margin-top: 20px;
 background-color: #fdfdfd;
 height: 40px;
-width: 80px;
+width: 120px;
 font-weight: bold;
 color:black;
 font-size: 25px;
+border-color: white;
+border-style: none;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
